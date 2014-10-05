@@ -17,12 +17,18 @@ body {
     -o-background-size: cover;
 }
 
+.headerimage {
+	background: url('https://unsplash.imgix.net/22/morning-street.JPG?q=75&fm=jpg&auto=format&s=e4247a57ab611c4be41a51142bde198c') no-repeat center center scroll;
+    padding: 80px;
+}
+
 
 .wide {
   width:100%;
-  height:200px;
+  height:300px;
   background-image:url('https://unsplash.imgix.net/22/morning-street.JPG?q=75&fm=jpg&auto=format&s=e4247a57ab611c4be41a51142bde198c');
   background-size:cover;
+  margin-top: 70px;
 }
 
 .wide img {
@@ -79,3 +85,5 @@ footer {
 }
 
 .navheader{margin-bottom: 85px !important;}
+
+.dhslogo{margin-top:15px;}
