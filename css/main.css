@@ -87,3 +87,5 @@ footer {
 .navheader{margin-bottom: 85px !important;}
 
 .dhslogo{margin-top:15px;}
+
+#map-canvas{height:450px; width:100%; padding-top: 25px;}

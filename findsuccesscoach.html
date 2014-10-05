@@ -43,16 +43,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#"><img src="images/pathwayslogo.png"</a>
-              <a class="navbar-brand" href="#"><img class="dhslogo"> src="images/dhslogo2.jpg"</a>
+
+                <a class="navbar-brand" href="#"><img src="images/pathwayslogo.png"></a>
+              <a class="navbar-brand" href="#"><img class="dhslogo" src="images/dhslogo2.jpg"></a>
+              
             </div>
             
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+               
+              
+               <li><a href="index.html">Home</a></li>
+                <li><a href="programdetails.html">Program Details</a></li>
+                <li><a href="howitworks.html">How it Works</a></li>
+                <li><a href="http://www.michigan.gov/dhs/0,4562,7-124-5453_7124_31804---,00.html" target="_blank">Resources</a></li>
+                <li class="active"><a href="findsuccesscoach.html">Find Your Coach</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -62,25 +68,46 @@
     </div>
   </div>
 
-<div class="wide">
-    
-   
-    
-</div>
 
-    <!-- Content Section -->
+ <!-- Content Section -->
     <section>
-        <div class="container">
+    <div id="map-canvas"></div>
+        <div class="container results">
             <div class="row">
                 <div class="col-lg-12">
-                <center><h1 class="section-heading">Helping People Find Their Pathway</h1></center><br><br>
-                  <a style="color:#FFFFFF;" href="####" class="btn btn-lg btn-block button-blue"><span class="glyphicon glyphicon-book"></span> Program Details</a><br><br>
+               
+    <div class="text-center">
+  <h1>Find Success Coach By District County:</h1>
+        <select class="form-control">
+        <option>Genesee</option>
+        <option>Kalamazoo</option>
+        <option>Lapeer</option>
+        <option>Macomb</option>
+        <option>Midland</option>
+        <option>Muskegon</option>
+        <option>Newaygo</option>
+        <option>Ogemaw</option>
+        <option>Oakland</option>
+        <option>Rosscommon</option>
+        <option>Saginaw</option>
+        <option>St. Clair</option>
+        <option>Wayne</option>
+        
+        
+        
+        
+        <br>
+        </select> 
 
-                  <a style="color:#FFFFFF;" href="####" class="btn btn-lg btn-block button-purple"><span class="glyphicon glyphicon-cog"></span> How It Works</a><br><br>
 
-                  <a style="color:#FFFFFF;" href="####" class="btn btn-lg btn-block button-turquoise"><span class="glyphicon glyphicon-tasks"></span> Resources</a><br><br>
+        <br><br>
+             <center><button type="button" class="btn btn-primary btn-lg btn-success">SUBMIT</button></center>
+             
+                <br><br>
+            <FORM><center><button type="button" onClick="history.go(0)" VALUE="Refresh" class="btn btn-primary btn-lg btn-success">REFRESH!</button></center></FORM> 
+            
+  </div>
 
-                 <a style="color:#FFFFFF;" href="####" class="btn btn-lg btn-block btn-success"><span class="glyphicon glyphicon-star"></span>Find Success Coach</a><br><br>
 
 
   
@@ -88,7 +115,7 @@
             </div>
         </div>
     </section>
-
+    
     
 
     <!-- Content Section -->
@@ -114,7 +141,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/pull.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
   </body>
 </html>

@@ -2,7 +2,7 @@
     // Insert your Socrata endpoint URL, SoQL query to filter by column, and Socrata API token 
 
     $(window).load(function() {
-    url = 'http://data.michigan.gov/resource/7f94-hriw.json';
+    url = 'http://opendata.socrata.com/resource/fprk-sxpi.json';
     var center = new google.maps.LatLng(44.314844300000000000,-85.602364299999970000);
     
     var mapOptions = {
